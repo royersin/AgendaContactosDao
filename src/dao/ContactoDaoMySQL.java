@@ -22,7 +22,7 @@ public class ContactoDaoMySQL extends ContactoDao {
         query.append(")");
         id = objConexion.ejecutarInsert(query.toString());
         if (id == 0) {
-            throw new Exception("El registro no pudo ser insertado");
+            throw new Exception("El registro no pudo ser insertado ");
         }
         objConexion.desconectar();
         return id;
