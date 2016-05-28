@@ -37,27 +37,7 @@ public class MainTest {
             System.out.println("Id: " + obj.getContactoId() + 
                     " | Nombre: " + obj.getNombre() + 
                     " | Telefono: " + obj.getTelefono());
-            
-            
-
-//            String query = "insert into contacto(nombre, telefono) "
-//                    + "VALUES "
-//                    + "('Juan Perez', '70021212')";
-//
-//            int contactoId = objConexion.ejecutarInsert(query);
-//
-//            query =  "SELECT contactoId, nombre, telefono FROM contacto WHERE contactoId = " + contactoId;
-//            ResultSet result = objConexion.ejecutarSelect(query);
-//        
-//            if(result.next()){
-//                
-//                contactoId = result.getInt("contactoId");
-//                String nombre = result.getString("nombre");
-//                String telefono = result.getString("telefono");
-//                
-//                System.out.println("Id: " + contactoId + " | Nombre: " + nombre + " | Telefono: " + telefono);
-//                
-//            }
+                       
         } catch (Exception ex) {
             ex.printStackTrace();
         }
