@@ -99,7 +99,7 @@ public class ContactoDaoMySQL extends ContactoDao {
                 registros.add(obj);
             }
         } catch (Exception ex) {
-            ;
+            ex.printStackTrace();
         }
         return registros;
     }
