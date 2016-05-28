@@ -73,7 +73,7 @@ public class ContactoDaoMySQL extends ContactoDao {
                 return obj;
             }
         } catch (Exception ex) {
-            ;
+            ex.printStackTrace();
         }
         return null;
     }
